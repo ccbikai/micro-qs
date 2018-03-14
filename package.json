@@ -1,12 +1,14 @@
 {
   "name": "micro-qs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A micro query string serialization/deserialization plugin",
   "main": "micro-qs.js",
   "umd:main": "micro-qs.umd.js",
   "module": "micro-qs.m.js",
   "sources": "src/index.js",
-  "files": ["micro-qs*"],
+  "files": [
+    "micro-qs*"
+  ],
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
