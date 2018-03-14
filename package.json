@@ -1,0 +1,31 @@
+{
+  "name": "micro-qs",
+  "version": "0.0.1",
+  "description": "A micro query string serialization/deserialization plugin",
+  "main": "micro-qs.js",
+  "umd:main": "micro-qs.umd.js",
+  "module": "micro-qs.m.js",
+  "sources": "src/index.js",
+  "files": "micro-qs*",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "prepost": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccbikai/micro-qs.git"
+  },
+  "keywords": [
+    "querystring"
+  ],
+  "author": "ccbikai <ccbikai@qq.com> (http://miantiao.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccbikai/micro-qs/issues"
+  },
+  "homepage": "https://github.com/ccbikai/micro-qs#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}
