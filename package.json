@@ -6,7 +6,7 @@
   "umd:main": "micro-qs.umd.js",
   "module": "micro-qs.m.js",
   "sources": "src/index.js",
-  "files": "micro-qs*",
+  "files": ["micro-qs*"],
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
